@@ -1,0 +1,20 @@
+path: C:\Users\Goico\Desktop\Github\Simpson_recognition\robdatasets
+train: train
+val: valid
+test: test
+
+names: 
+  0: Abraham Grampa Simpson
+  1: Barney Gumble
+  2: Bart Simpson
+  3: Charles Montgomery Burns
+  4: Chief Wiggam
+  5: Comic Book Guy
+  6: Edna Krappel
+  7: Groundskeeper Willie
+  8: Homer Simpson
+  9: Kent Brockman
+  10: Krusty the Clown
+  11: Lisa Simpson
+  12: Maggie Simpson
+  13: Marge Simpson

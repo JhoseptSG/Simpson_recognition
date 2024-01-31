@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Abraham Grampa Simpson', 'Barney Gumble', 'Bart Simpson', 'Charles Montgomery Burns', 'Chief Wiggam', 'Comic Book Guy', 'Edna Krappel', 'Groundskeeper Willie', 'Homer Simpson', 'Kent Brockman', 'Krusty the Clown', 'Lisa Simpson', 'Maggie Simpson', 'Marge Simpson']
+
+roboflow:
+  workspace: cihat-eutxe
+  project: simpson-9vgqh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cihat-eutxe/simpson-9vgqh/dataset/1
