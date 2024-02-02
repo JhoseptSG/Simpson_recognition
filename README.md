@@ -22,4 +22,10 @@ diversity and bolstering the model's robustness. On the other hand, for the vali
 By implementing these preprocessing techniques, we aim to establish a standardized and augmented dataset that optimally supports the training and evaluation of the convolutional neural network.
 
 
+## Deep Learning Model 
+
+The Convolutional Neural Network (CNN) has been implemented with multiple convolutional blocks. These blocks feature Conv2D layers with ReLU activation, coupled with MaxPooling for downsampling and Dropout for regularization and avoid overfitting. Concluding the architecture, the output layer, which utilizes softmax activation for multi-class classification. 
+
+I use loss function: Categorical Crossentropy  is commonly used for multi-class classification problems , optimizer Adam a popular optimization algorithm that adapts the learning rates for each parameter individually.
+
 
