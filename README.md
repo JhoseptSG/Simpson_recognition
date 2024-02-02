@@ -9,7 +9,7 @@ character, facilitating a straightforward assignment of each image to a specific
 It's noteworthy that the dataset encompasses a broader array of Simpson family characters beyond the selected five. However, owing to time constraints, I've opted to streamline the training process by focusing 
 solely on the principal characters. This decision ensures a more efficient training pipeline, emphasizing the recognition accuracy of the primary characters.
 
-### Preprocessing
+## Preprocessing
 I am splitting my dataset into a training set comprising 90% of the data and a validation set containing the remaining 10%, using the splitfolders function.
 
 The initial preprocessing step involves resizing all images to a uniform size of (90, 90, 3). This standardization is crucial for consistent training across the dataset and normalize the pixel values by dividing them by 255.
