@@ -31,8 +31,19 @@ I used loss function: Categorical Crossentropy  is commonly used for multi-class
 ## Training the model
 For the training, the model was iterating over batches of training set (batch size : 32) for 20 epochs. 
 
-```txt
-{% classification_report.txt %}
+
+Classification Report:
+                precision    recall  f1-score   support
+
+  bart_simpson       0.96      0.84      0.90       135
+ homer_simpson       0.95      0.97      0.96       225
+  lisa_simpson       0.89      0.96      0.92       136
+maggie_simpson       0.80      0.62      0.70        13
+ marge_simpson       0.96      0.98      0.97       130
+
+      accuracy                           0.94       639
+     macro avg       0.91      0.87      0.89       639
+  weighted avg       0.94      0.94      0.94       639
 
 
 ## 
