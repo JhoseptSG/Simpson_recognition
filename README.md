@@ -57,13 +57,13 @@ We observe a notably high accuracy rate of 94%. Each character attains a precisi
 Now, look at how it worked for each character with images that were not in the data used to train the model.
 
 
-![Texto Alternativo](all_characters.png)
+![Texto Alternativo](test/images/all_characters.png)
 
 Now that we're observing, the model performs exceptionally well. However, it's important to note that no model can guarantee 100% security. Let's examine the three elements with lower accuracy and explore the 
 probabilities assigned to other characters. 
 
 
-![Texto Alternativo](test_2.png)
+![Texto Alternativo](test/images/test_2.png)
 
 Now, as mentioned earlier, the model encounters more challenges when trying to classify between Lisa and Maggie due to their physical similarities. It is  easier for the model to correctly discriminate among other 
 characters. It is evident that achieving a high accuracy rate to distinguish between Simpsons characters is indeed possible.
