@@ -52,7 +52,17 @@ We observe a notably high accuracy rate of 94%. Each character attains a precisi
 
 ## Testing model
 
-[Texto Alternativo](all_characters.jpg)
+Now, look at how it worked for each character with images that were not in the data used to train the model.
+
+![Texto Alternativo](all_characters.png)
+
+Now that we're observing, the model performs exceptionally well. However, it's important to note that no model can guarantee 100% security. Let's examine the three elements with lower accuracy and explore the 
+probabilities assigned to other characters. 
+
+![Texto Alternativo](test_2.png)
+
+
+
 
 
 
