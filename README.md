@@ -56,14 +56,23 @@ We observe a notably high accuracy rate of 94%. Each character attains a precisi
 
 Now, look at how it worked for each character with images that were not in the data used to train the model.
 
+
 ![Texto Alternativo](all_characters.png)
 
 Now that we're observing, the model performs exceptionally well. However, it's important to note that no model can guarantee 100% security. Let's examine the three elements with lower accuracy and explore the 
 probabilities assigned to other characters. 
 
+
 ![Texto Alternativo](test_2.png)
 
+Now, as mentioned earlier, the model encounters more challenges when trying to classify between Lisa and Maggie due to their physical similarities. It is  easier for the model to correctly discriminate among other 
+characters. It is evident that achieving a high accuracy rate to distinguish between Simpsons characters is indeed possible.
 
+In this project, achieving a high accuracy rate to distinguish between Simpsons characters is certainly feasible. However, there are certain limitations to consider. For example, in our dataset, each image 
+corresponds to only one character. What if an image contains two characters? The model may encounter challenges in accurately discriminating between them because the training data lacks instances with more than 
+one label per image. It's crucial to note that our current model is designed for classification and not as a comprehensive computer vision model capable of detecting and classifying multiple characters within a 
+single image. To address this limitation, we are currently in the process of implementing a model using YOLO, which will allow us to achieve the desired functionality of detecting and classifying multiple 
+characters within a single image.
 
 
 
