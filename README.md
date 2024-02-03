@@ -48,6 +48,13 @@ Macro Avg Precision: 0.91, Recall: 0.87, F1-Score: 0.89
 
 Weighted Avg Precision: 0.94, Recall: 0.94, F1-Score: 0.94
 
-Total Samples: 639
+We observe a notably high accuracy rate of 94%. Each character attains a precision rate exceeding 95%, except for Maggie and Lisa, which exhibit slightly lower precision levels, possibly due to their similarities. The model faces challenges in accurately classifying these two characters.
 
-## 
+## Testing model
+
+[Texto Alternativo](all_characters.jpg)
+
+
+
+
+
