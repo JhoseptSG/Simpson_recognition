@@ -74,8 +74,9 @@ one label per image. It's crucial to note that our current model is designed for
 single image. To address this limitation, we are currently in the process of implementing a model using YOLO, which will allow us to achieve the desired functionality of detecting and classifying multiple 
 characters within a single image.
 
+using the YOLO library we create a new model to predict multiple characters in the same image. For this purpose we use a different dataset founded in Robotflow. 
+now we test it in a video for this porpuse. 
 
-
-
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 
