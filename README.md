@@ -73,16 +73,15 @@ corresponds to only one character. What if an image contains two characters? The
 one label per image. It's crucial to note that our current model is designed for classification and not as a comprehensive computer vision model capable of detecting and classifying multiple characters within a 
 single image. 
 
-Expanding our capabilities beyond single-character classification, we've embraced the YOLO (You Only Look Once) library to develop a model capable of detecting and classifying multiple characters within a single image. This represents a significant advancement, 
+# Using YOLO
+
+Expanding our capabilities beyond single-character classification, we've use the YOLO (You Only Look Once) library to develop a model capable of detecting and classifying multiple characters within a single image. This represents a significant advancement, 
 particularly when confronted with scenarios where multiple Simpson family members coexist within a scene.
 
-Utilizing a distinct dataset sourced from Robotflow, we augmented our training data to encompass images featuring multiple characters, ensuring our model's adaptability to diverse real-world scenarios. This dataset not only broadened the scope of our training but also 
-fortified the model's ability to discern between different characters even when they appear together in a frame.
-
-Training the YOLO model involved a rigorous process of annotation, where bounding boxes were meticulously drawn around each character within the training images. This step was crucial for teaching the model to localize and identify individual characters amidst complex 
+Utilizing a distinct dataset sourced from Robotflow, we augmented our training data to encompass images featuring multiple characters, ensuring our model's adaptability to diverse real-world scenarios. Training the YOLO model involved a rigorous process of annotation, where bounding boxes were meticulously drawn around each character within the training images. This step was crucial for teaching the model to localize and identify individual characters amidst complex 
 visual backgrounds.
 
-Once trained, we put our YOLO model to the test in real-world scenarios. Utilizing a video dataset, we evaluated its performance in dynamically identifying and tracking multiple Simpson family members across various scenes. To provide a visual glimpse of our YOLO model in action, we've prepared a GIF showcasing its performance in a sample video sequence. 
+Once trained, we put our YOLO model to the test in real-world scenarios. Utilizing the simpson introduction, we evaluated its performance in dynamically identifying and tracking multiple Simpson family members across various scenes. To provide a visual example of our YOLO model in action, we've prepared a GIF showcasing its performance in a sample video sequence. 
 
 
 ![Alt Text](test_intro.gif)
