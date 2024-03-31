@@ -71,12 +71,20 @@ characters. It is evident that achieving a high accuracy rate to distinguish bet
 In this project, achieving a high accuracy rate to distinguish between Simpsons characters is certainly feasible. However, there are certain limitations to consider. For example, in our dataset, each image 
 corresponds to only one character. What if an image contains two characters? The model may encounter challenges in accurately discriminating between them because the training data lacks instances with more than 
 one label per image. It's crucial to note that our current model is designed for classification and not as a comprehensive computer vision model capable of detecting and classifying multiple characters within a 
-single image. To address this limitation, we are currently in the process of implementing a model using YOLO, which will allow us to achieve the desired functionality of detecting and classifying multiple 
-characters within a single image.
+single image. 
 
-using the YOLO library we create a new model to predict multiple characters in the same image. For this purpose we use a different dataset founded in Robotflow. 
-now we test it in a video for this porpuse. 
+Expanding our capabilities beyond single-character classification, we've embraced the YOLO (You Only Look Once) library to develop a model capable of detecting and classifying multiple characters within a single image. This represents a significant advancement, 
+particularly when confronted with scenarios where multiple Simpson family members coexist within a scene.
+
+Utilizing a distinct dataset sourced from Robotflow, we augmented our training data to encompass images featuring multiple characters, ensuring our model's adaptability to diverse real-world scenarios. This dataset not only broadened the scope of our training but also 
+fortified the model's ability to discern between different characters even when they appear together in a frame.
+
+Training the YOLO model involved a rigorous process of annotation, where bounding boxes were meticulously drawn around each character within the training images. This step was crucial for teaching the model to localize and identify individual characters amidst complex 
+visual backgrounds.
+
+Once trained, we put our YOLO model to the test in real-world scenarios. Utilizing a video dataset, we evaluated its performance in dynamically identifying and tracking multiple Simpson family members across various scenes. To provide a visual glimpse of our YOLO model in action, we've prepared a GIF showcasing its performance in a sample video sequence. 
+
 
 ![Alt Text](test_intro.gif)
 
-
+In conclusion, our integration of the YOLO library represents a significant stride towards comprehensive Simpsons character recognition. While our initial CNN-based approach excelled in single-character classification, the adoption of YOLO elevates our capabilities to encompass dynamic multi-character detection in real-world scenarios. With further refinement and deployment, our YOLO-powered solution holds promise for diverse applications, from content moderation to immersive multimedia experiences, advancing the frontier of computer vision in the realm of animated character recognition.
