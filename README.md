@@ -77,6 +77,6 @@ characters within a single image.
 using the YOLO library we create a new model to predict multiple characters in the same image. For this purpose we use a different dataset founded in Robotflow. 
 now we test it in a video for this porpuse. 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](test_intro.gif)
 
 
